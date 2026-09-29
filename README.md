@@ -1,4 +1,4 @@
-# JAVASCRIPT STEP - STEP
+# JAVASCRIPT STEP by STEP
 
 ## The purpose of this is to help you understand Javascript the way I learnt it in code.
 
