@@ -8,7 +8,7 @@ let name = prompt ("please enter your name: ");
 /* console.log(name); */
 
 //null = false /zero /undefined/ boolean false
-/// to check for null we use the nullish koleskian operator
+// to check for null we use the nullish koleskian operator
 /* console.log(name ?? "you did'nt enter your name."); */
 if (name){
     console.log(name);
