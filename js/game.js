@@ -1,5 +1,5 @@
 //rock papper scissors game try your hands on it
-alert("hello")
+/* alert("hello")
 let hello = confirm("would you like to play a game ");
 let computer = "rock"
 
@@ -36,7 +36,48 @@ if(hello){
   
 }else{
     console.log("maybe next time")
-}
-        
+}   */  
 
+    
+    ///rock papper scissors using switch case
+confirm("want to play a game");
+let player1 =prompt("enter rock , papper, or scissors");
+let computer= "rock" ;
+
+switch(player1){
+    
+    case computer :
+    console.log("its a tie")
+    break;
+
+    case "rock":
+        if(computer ==="scissors"){
+            console.log("player1 wins")
+        }else{
+            console.log("computer wins")
+        }
+        break;
+    case "papper":
+        if(computer ==="rock"){
+            console.log("player1 wins")
+        }else{
+            console.log("computer wins")
+        }
+        break;
+
+      case "scissors":
+        if(computer ==="papper"){
+            console.log("player1 wins")
+        }else{
+            console.log("computer wins")
+        }
+        break;
+
+        default:{
+            console.log("maybe nexttime")
+        }
+
+}
+
+  
  
